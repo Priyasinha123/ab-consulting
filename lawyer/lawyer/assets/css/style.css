@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+}
+
+:root {
+    --red: #C90505;
+    --grey: #989898;
+}
+.suprimo{
+    padding: 60px 0;
+}
+
+@media screen and (max-width:544px){
+    .suprimo {
+        padding: 20px 0 40px ;
+    }
+    .suprimo h2{
+        font-size: 18px !important;
+    }
+    .practice{
+        padding: 40px 0 !important;
+    }
+    .practice h2{
+        padding-top: 0 !important;
+    }
+}
+
+.suprimo h2{
+    padding-top: 40px;
+    font-size: 30px;
+    color: var(--red);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.suprimo p{
+    text-align: justify;
+}
+.suprimo a{
+    background-color: #cca776;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+.suprimo img{
+    /* width: 90%; */
+    /* padding-top: 40px; */
+    /* height: 600px; */
+}
+.suprimo a:hover{
+    color: red;
+}
+.success{
+    background-color:#6b6661;
+}
+.success{
+    padding: 60px 0;
+}
+.success h2{
+    /* padding-top: 50px; */
+    font-size: 50px;
+    text-align: center;
+    color: #cca776;
+}
+.success h4{
+   color: white; 
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-top: 20px;
+}
+.success img{
+    display: block;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+.top-nav{
+    background: #C90505;
+    padding: 10px 0;
+}
+.top-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.top-nav a:hover{
+    color:white;
+}
+.second-nav{
+    background: black;
+    padding: 10px 0;
+}
+.second-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  
+}
+.navbar{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 6px;
+}
+.navbar .nav-link{
+    text-decoration: none;
+    color: var(--red);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px !important;
+    margin: 0 10px ;
+    font-family: 'Space Mono', monospace;
+
+}
+.navbar .btn{
+  /* border: 1px solid #989898 ; */
+  color: white;
+  /* padding:10px 30px; */
+}
+.last{
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
+.last h4{
+    font-weight: bold;
+    padding: 30px;
+}
+.last .footer-head{
+    padding-top: 30px;
+}
+.last .footer-head p{
+    padding-top: 20px;
+    color: gray;
+    text-align: justify;
+}
+.last .footer-head a i{
+    color: gray;
+    font-size: 40px;
+}
+.last .footer-head a {
+    margin-right: 20px;
+}
+.last .wrap ul li{
+    list-style: none;
+    padding-top: 5px;
+}
+.last .wrap li a{
+    color: gray;
+    text-decoration: none;
+}
+.last .wrap p{
+    padding-top: 20px;
+    color: gray;
+
+}
+.practice{
+    padding: 70px 0px;
+}
+.practice h2{
+    padding-top: 80px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--red);
+}
+.practice p{
+    text-align: center;
+    color: gray;
+    text-align: justify;
+    padding: 30px 0;
+}
+.practice h4{
+    text-align: center;
+}
+
+
+
+
+
+.practice .text1{
+    background: linear-gradient(to right, #000000a1,#0000008b), url(../images/one.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+}
+.practice .text1 h4{
+    color: white;
+}
+.practice .text1 p{
+    color: gray;
+    font-size: 15px;
+}
+.practice .text2{
+    background: linear-gradient(to right, #000000a1,#0000008b), url(../images/two.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+}
+.practice .text2 h4{
+    color: white;
+}
+.practice .text2 p{
+    color: gray;
+    font-size: 15px;
+}
+.practice .text3{
+    background: linear-gradient(to right, #000000a1,#0000008b), url(../images/three.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+}
+.practice .text3 h4{
+    color: white;
+}
+.practice .text3 p{
+    color: gray;
+    font-size: 15px;
+}
+.practice .text4{
+    background: linear-gradient(to right, #000000a1,#0000008b), url(../images/four.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 20px;
+    width: 100%;
+}
+.practice .text4 h4{
+    color: white;
+}
+.practice .text4 p{
+    color: gray;
+    font-size: 15px;
+}
+.appointment{
+    padding: 30px 0;
+}
+.appointment img{
+    object-fit: cover;
+}
+
+
+.model-btn-product{
+    padding: 8px 30px;
+    color: #fff;
+    background: #C90505;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.modal-cont{
+    color: #C90505;
+}
+.modal-para{
+    color: #C90505;
+}
+.read-more-btn{
+    background: #C90505;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+}
+
+/* .about p{
+    padding-top: 10px;
+}
+
+} */
+.about{
+    padding: 60px 0;
+}
+.about h2{
+    text-align: center;
+    color: var(--red);
+    font-weight: bold;
+
+}
+.about h4{
+    color: var(--red);
+    /* font-weight: bold; */
+    padding-top: 50px;
+}
+.about p{
+    text-align: justify;
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: normal;
+}
+.about img{
+    /* height: 700px; */
+    padding-top: 60px;
+}
+.sect{
+    background: url(../images/four.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+.sect .breadcrumb-item a{
+    text-decoration: none !important;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&& contact page start */
+.contact-page{
+    padding: 90px 0;
+    background-color: whitesmoke;
+}
+.contact-page .con-addr i{
+    color: var(--skin);
+    font-size: 45px;
+    color: var(--red);
+
+}
+.contact-page .con-addr h4{
+    color: var(--skin);
+    font-weight: bold;
+    color: var(--red);
+}
+.contact-page .con-addr p{
+    font-weight: bold;
+}
+.contact-page .con-addr a{
+    text-decoration: none;
+    color: #000;
+}
+.contact-page .contact-log-in h6{
+    color: var(--darkgray);
+    font-size: 24px;
+    /* color: var(--red); */
+
+}
+.contact-page .contact-log-in p{
+    font-size: 18px;
+}
+.contact-page .contact-log-in .form-control {
+    padding: 13px !important;
+    margin: 10px 0;
+    border-radius: 0 !important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.contact-page .contact-log-in .form-button {
+    font-size: 14px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: var(--skin);
+    color: #fff;
+    font-weight: bold;
+    background-color: gray;
+}
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&& contact page end */
+.service{
+    padding: 60px 0;
+}
+.service h2{
+    text-align: center;
+    color: var(--red);
+
+}
+.service h3{
+    color: var(--red);
+    font-weight: bold;
+}
+.service p{
+    text-align: justify;
+    font-size: 18px;
+    padding-top: 30px;
+}
+.service img{
+    padding-top: 30px;
+}
+.service a{
+    background-color: #cca776;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.service a:hover{
+    color: red;
+}
+
+.service-all {
+    padding: 40px 0;
+}
+
+.service-all .item {
+    position: relative;
+}
+
+.service-all .item p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 1.3em;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+    transform: translateY(0px);
+}
+
+.service-all .item:hover p {
+    display: block;
+    transform: translateY(-9px);
+    transition: .9s;
+}
+
+.service-all .item .img-serv a {
+    text-decoration: none;
+    transition: .9s;
+}
+
+.service-all .item .img-serv {
+    position: relative;
+    overflow: hidden;
+    transition: .9s;
+}
+
+.service-all .paara {
+    position: absolute;
+    bottom: -25px;
+    transition: .3s all ease-in-out;
+}
+
+.service-all .paara p {
+    font-size: 1.3em;
+    text-shadow: 2px 2px 8px #333;
+}
+
+.img-serv:hover .paara {
+    bottom: 0px;
+    width: 100%;
+}
+
+.service-all .item .img-serv img {
+    transition: .9s;
+}
+
+.service-all .item .img-serv:hover img {
+    transform: scale(1.1);
+}
+
+.footer-02{
+    background: #3F4451;
+    color: #fff;
+    border-top: 1px solid #fff;
+}
+.footer-02 a{
+    color: orange;
+    text-decoration: none;
+}
+@media screen and (max-width:400px) {
+    .navbar .navbar-brand img{
+        width: 200px;
+    }
+}
+
